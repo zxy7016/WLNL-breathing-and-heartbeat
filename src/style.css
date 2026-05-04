@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: radial-gradient(ellipse 120% 80% at 50% -20%, #1a2744 0%, #0d1117 45%, #070a0f 100%);
+  color: #e6edf3;
+}
+
+#app {
+  min-height: 100vh;
+  padding: clamp(1rem, 4vw, 2rem);
+}
